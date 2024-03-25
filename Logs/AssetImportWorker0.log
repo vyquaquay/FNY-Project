@@ -1,0 +1,791 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32701 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Phan Vy/FNYP Vyquaquay/FNY-Project/FNY Project Vyquaquay
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52721
+Successfully changed project path to: C:/Users/Phan Vy/FNYP Vyquaquay/FNY-Project/FNY Project Vyquaquay
+C:/Users/Phan Vy/FNYP Vyquaquay/FNY-Project/FNY Project Vyquaquay
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23056] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3977286922 [EditorId] 3977286922 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QRJ9T7G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23056] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3977286922 [EditorId] 3977286922 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QRJ9T7G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 16.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Phan Vy/FNYP Vyquaquay/FNY-Project/FNY Project Vyquaquay/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.24019.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017951 seconds.
+- Loaded All Assemblies, in  0.700 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.522 seconds
+Domain Reload Profiling: 2222ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (1053ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.493 seconds
+Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.120 seconds
+Domain Reload Profiling: 2608ms
+	BeginReloadAssembly (604ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (644ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (217ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1121ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (903ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5671 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (0.9 MB). Loaded Objects now: 6115.
+Memory consumption went from 219.5 MB to 218.6 MB.
+Total: 4.172000 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.405100 ms MarkObjects: 3.003000 ms  DeleteObjects: 0.384400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 669583.315163 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08254b431e78862a1490bbccd82936fe') in 0.012841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 113.355734 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ac354438ad0a7e044ba35c698ce28863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ac354438ad0a7e044ba35c698ce28863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7903ce9a8d6655c5ab7d016091a04796') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 108.940325 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaf86c3f03648c5e793ca5c7378c2ed') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 109.400214 seconds.
+  path: Assets/Sprite
+  artifactKey: Guid(3c412296a74d0a9499e7935ed91ec50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite using Guid(3c412296a74d0a9499e7935ed91ec50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615f2ee45457a6899dba7e80572f2fec') in 0.000415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.566090 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0f1c9b956b738fc08170e3f36fa937') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.074462 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files
+  artifactKey: Guid(0aec88333733199408bf4d519674fcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files using Guid(0aec88333733199408bf4d519674fcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6527e9485b38036fa6e7768b5093fe79') in 0.000387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.295910 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/PNG
+  artifactKey: Guid(9082b98c6f277094facf2be136ac5206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/PNG using Guid(9082b98c6f277094facf2be136ac5206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b58e383cc64d7841edccd3db11c9a') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055019 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/breath.png
+  artifactKey: Guid(0cf17a789cfe0a449a56f75f3b887833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/breath.png using Guid(0cf17a789cfe0a449a56f75f3b887833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9acb327d8d0c39376b38af11deb599b') in 0.099299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/demon-attack.png
+  artifactKey: Guid(0d830f4cb876a2f45a4b3b73c14f3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/demon-attack.png using Guid(0d830f4cb876a2f45a4b3b73c14f3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a502e24fe4fafdca9d2073b5556c88') in 0.012509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/demon-idle.png
+  artifactKey: Guid(cc4e662d31b97d947b0351d72156e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/demon-idle.png using Guid(cc4e662d31b97d947b0351d72156e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d74863a5df6674009d237efc2efefc') in 0.012070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/breath-fire.png
+  artifactKey: Guid(40363ed7863cad24aa1335d5acb3f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/breath-fire.png using Guid(40363ed7863cad24aa1335d5acb3f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c6017b8a63a1d28cb81f4276d24692') in 0.011651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/demon-attack-no-breath.png
+  artifactKey: Guid(b140ae21f40f4f44eaf8865d6041b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/PNG/demon-attack-no-breath.png using Guid(b140ae21f40f4f44eaf8865d6041b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b1bb6c82ed3194e713c409b8377df3') in 0.011898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.993635 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/GIFS/demon-attack.gif
+  artifactKey: Guid(8e3b61da4d6ecf54d9514af1a7095fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/GIFS/demon-attack.gif using Guid(8e3b61da4d6ecf54d9514af1a7095fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce3d2c43505d669be5701fc73ef266a') in 0.014790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/GIFS/demon-attack-no-breath.gif
+  artifactKey: Guid(60642e526d1d9f44eb36fcbc6f9151a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/GIFS/demon-attack-no-breath.gif using Guid(60642e526d1d9f44eb36fcbc6f9151a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fae2f0cde53e3c0815f5c8247d9ccd2') in 0.013283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/gothicvania patreon collection/demon-Files/GIFS/demon-idle.gif
+  artifactKey: Guid(0acb4b9698c8f2e4099c830da8551a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/gothicvania patreon collection/demon-Files/GIFS/demon-idle.gif using Guid(0acb4b9698c8f2e4099c830da8551a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304a9358783bf70a3f2220242d2f366') in 0.013458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 373.390879 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Attack.png
+  artifactKey: Guid(05f867c06e57a1f47947520342dbf711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Attack.png using Guid(05f867c06e57a1f47947520342dbf711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc5304bbc8b4f70248905fc8e78b541') in 0.022065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallHang.png
+  artifactKey: Guid(e3a6a63bb3fede744a459c56fba8df72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallHang.png using Guid(e3a6a63bb3fede744a459c56fba8df72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e57be26d87ae5b033daf1ddcaca806f') in 0.012762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_SlideFull.png
+  artifactKey: Guid(08f922028a452974fbf9969e67dec58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_SlideFull.png using Guid(08f922028a452974fbf9969e67dec58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad71f61147419c82c9537ec65b4ee10') in 0.012756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallClimb.png
+  artifactKey: Guid(2b5b7ac9caad1a14393be429e1447a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallClimb.png using Guid(2b5b7ac9caad1a14393be429e1447a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c562cd6067be06bac7d618ea6efa07cb') in 0.013708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_JumpFallInbetween.png
+  artifactKey: Guid(c97ca58329ee64248942c9f1af7ad4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_JumpFallInbetween.png using Guid(c97ca58329ee64248942c9f1af7ad4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e713fe4958a03fd1f4135de9ed58dfa') in 0.014789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Slide.png
+  artifactKey: Guid(fa02fdb6f403af74ab8e8281b0854370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Slide.png using Guid(fa02fdb6f403af74ab8e8281b0854370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f04effb09f170d05ea535a39e358be') in 0.015233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_DeathNoMovement.png
+  artifactKey: Guid(99f877a382620ed4eaedcbf70b9e043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_DeathNoMovement.png using Guid(99f877a382620ed4eaedcbf70b9e043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c01feec075537aee26edcf0158195b2') in 0.013940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Fall.png
+  artifactKey: Guid(8ebfa20eca9bdf846a9afdb2b174f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Fall.png using Guid(8ebfa20eca9bdf846a9afdb2b174f26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e460ba796dafb733599af989c8188ed3') in 0.013535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Attack2.png
+  artifactKey: Guid(196141d0dc8478f46989684003f9f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Attack2.png using Guid(196141d0dc8478f46989684003f9f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c2c815ed964bb379f9a2edf3e76a7c') in 0.014831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Death.png
+  artifactKey: Guid(9b48135803a60844ca8a9ca1831b8e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Death.png using Guid(9b48135803a60844ca8a9ca1831b8e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a7539310f283db17540657188f82a2') in 0.012885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallSlide.png
+  artifactKey: Guid(e7547dd53c5ec054bacb3dba20ba5291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallSlide.png using Guid(e7547dd53c5ec054bacb3dba20ba5291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42fa930d251538c9f89f4cdc0072513') in 0.013401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Hit.png
+  artifactKey: Guid(b8a851541304bce4ca8556808c5f3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Hit.png using Guid(b8a851541304bce4ca8556808c5f3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ecac652808ad36eb768a3168fb9f12') in 0.013700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Crouch.png
+  artifactKey: Guid(2967457d7e96eff4bb6cdcb0b58ff736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Crouch.png using Guid(2967457d7e96eff4bb6cdcb0b58ff736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f390a680cefdb345eb2a26b756e8f697') in 0.011375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_TurnAround.png
+  artifactKey: Guid(26dc30cc4fd4ff64b9b4ce07851cb0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_TurnAround.png using Guid(26dc30cc4fd4ff64b9b4ce07851cb0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1074e0808b969a2e8b14dc4e28d8eb3a') in 0.011946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchAttack.png
+  artifactKey: Guid(535404c5aa24b8b4484d29254d596ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchAttack.png using Guid(535404c5aa24b8b4484d29254d596ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4426459e45b782beee0c0b7cee60369a') in 0.011998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Attack2NoMovement.png
+  artifactKey: Guid(24c4825345074894e9b900a0249e01e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Attack2NoMovement.png using Guid(24c4825345074894e9b900a0249e01e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0ed97f98064298d95029e96c1280e7') in 0.011958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_AttackNoMovement.png
+  artifactKey: Guid(cb9257a3f2dd86e429c4b8848fd2ae9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_AttackNoMovement.png using Guid(cb9257a3f2dd86e429c4b8848fd2ae9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53516ea244c6e65a8785cf06de15a81') in 0.013455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchWalk.png
+  artifactKey: Guid(6a3af0d6d3b224e47a99c33d26c76c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchWalk.png using Guid(6a3af0d6d3b224e47a99c33d26c76c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aec301c345992d432589e8d2a047451') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_SlideTransitionStart.png
+  artifactKey: Guid(1bdc2d0f116b74b4a8d0b13128934688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_SlideTransitionStart.png using Guid(1bdc2d0f116b74b4a8d0b13128934688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9c085be7fdf7edf7e0812427d28f7e') in 0.012144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Idle.png
+  artifactKey: Guid(6e1d276224a744642b9f1db2edc619d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Idle.png using Guid(6e1d276224a744642b9f1db2edc619d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20febaf4137f4c68e3f209f84fb8fa7a') in 0.013367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Run.png
+  artifactKey: Guid(9e5592f49d0464443935cae179380918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Run.png using Guid(9e5592f49d0464443935cae179380918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298efb08b5d857d577ed55fcbfc30b5d') in 0.014308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_SlideTransitionEnd.png
+  artifactKey: Guid(9d2331a966fbd8441a329ab062010e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_SlideTransitionEnd.png using Guid(9d2331a966fbd8441a329ab062010e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c6b8893fa7bc5f93d2070d250cbefb') in 0.014194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallClimbNoMovement.png
+  artifactKey: Guid(fe2b11a959781f544a359c0dccf05f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_WallClimbNoMovement.png using Guid(fe2b11a959781f544a359c0dccf05f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e255d6105b0e986fcea836dbbd2025eb') in 0.013395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_AttackCombo2hit.png
+  artifactKey: Guid(311081134d10b1c42b15e15bb2436e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_AttackCombo2hit.png using Guid(311081134d10b1c42b15e15bb2436e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a20e3430b675eb13934a2c468e4ba73') in 0.013478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchTransition.png
+  artifactKey: Guid(d1fb3d26be622eb43a7737e700080798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchTransition.png using Guid(d1fb3d26be622eb43a7737e700080798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde845c9aa804d906c42514ecf929613') in 0.013762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchFull.png
+  artifactKey: Guid(354eac2d4ca7b0c499b9d47b252c76ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_CrouchFull.png using Guid(354eac2d4ca7b0c499b9d47b252c76ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96c3f8acf6513ae292ec9be9576074c') in 0.012914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Jump.png
+  artifactKey: Guid(0a69170ba7341a047a0150cb1e1c513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Jump.png using Guid(0a69170ba7341a047a0150cb1e1c513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bc6ed1f460f1a8d5370437c39c654f') in 0.030735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Dash.png
+  artifactKey: Guid(5e77221f98d7d1b4a9cb54841074566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Dash.png using Guid(5e77221f98d7d1b4a9cb54841074566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f115178d579f71c025abe0901fed735a') in 0.013337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Roll.png
+  artifactKey: Guid(f3f2ab2c2d2b24843937583a1df99be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_Roll.png using Guid(f3f2ab2c2d2b24843937583a1df99be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cca2d9902886caf80f74c348f6f7ca6') in 0.012130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_AttackComboNoMovement.png
+  artifactKey: Guid(5f7174f90b3be9e489a597e0671c1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_PNGSheets/_AttackComboNoMovement.png using Guid(5f7174f90b3be9e489a597e0671c1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9631defac2ddf26e0121312c553ec9a') in 0.013676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.281236 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(b0af1e8e2a8163942bf21a1726c70450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Attack.gif using Guid(b0af1e8e2a8163942bf21a1726c70450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5dbc5f7231bf7d38a5bad4cb0dfd5') in 0.015220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallHang.gif
+  artifactKey: Guid(9088241cc195bd04d87a297a3d0d3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallHang.gif using Guid(9088241cc195bd04d87a297a3d0d3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19e1b6d44a336eb583d32b0c73f52b9') in 0.013845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Idle.gif
+  artifactKey: Guid(970f2ca857c320d48abe08bd5e6f3e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Idle.gif using Guid(970f2ca857c320d48abe08bd5e6f3e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdcf8c70e8ca7da22b89660bcbc84e1') in 0.012766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(20db97f0820a15c4db048fb3c37ddc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchAll.gif using Guid(20db97f0820a15c4db048fb3c37ddc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d4d5d3318326dc2ca911fd7cda44e2') in 0.014089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchWalk.gif
+  artifactKey: Guid(a24651d91bf24b745a13729a6254530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchWalk.gif using Guid(a24651d91bf24b745a13729a6254530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448ce91b0874049fa81c6ad6f860ec79') in 0.013246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Dash.gif
+  artifactKey: Guid(c4707244e1ac8e243916c619c26f13e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Dash.gif using Guid(c4707244e1ac8e243916c619c26f13e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf978f22a055c70e95700c796d83ac9') in 0.013745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__AttackNoMovement.gif
+  artifactKey: Guid(6b5bd0943da37824689a922a93183662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__AttackNoMovement.gif using Guid(6b5bd0943da37824689a922a93183662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee549474cd259e21dc2e6813f27292c') in 0.012601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Crouch.gif
+  artifactKey: Guid(68d04f7946ce66f4d8c65a4aa2c5d1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Crouch.gif using Guid(68d04f7946ce66f4d8c65a4aa2c5d1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a99f663a00571670039f9d9c3453a4f') in 0.011705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(7e70f65681b56524fa73719ec31a35cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchAttack.gif using Guid(7e70f65681b56524fa73719ec31a35cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568a357ccec227ff11da1482a5ed10bc') in 0.012612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__SlideTransitionEnd.gif
+  artifactKey: Guid(4316ce099fd3ae84aa32225e5fbe9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__SlideTransitionEnd.gif using Guid(4316ce099fd3ae84aa32225e5fbe9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3767ec00fb985abb64534505463d0dd') in 0.013043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__SlideTransitionStart.gif
+  artifactKey: Guid(3884a9c78f37e0d47b69c1b03347365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__SlideTransitionStart.gif using Guid(3884a9c78f37e0d47b69c1b03347365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7498e556f0416a73b2c3463165b9e86c') in 0.013496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__TurnAround.gif
+  artifactKey: Guid(a323bb128c64a46498ee36ff4f1058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__TurnAround.gif using Guid(a323bb128c64a46498ee36ff4f1058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cc7663930ad7be9a96f193c820d9ce') in 0.013716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__AttackComboNoMovement.gif
+  artifactKey: Guid(cc8b4fb848ebfe346a2604452f48218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__AttackComboNoMovement.gif using Guid(cc8b4fb848ebfe346a2604452f48218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6aab04c4cec22bc8cf128034377d050') in 0.009866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Death.gif
+  artifactKey: Guid(12434e550d3b6e74a86b73452319870e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Death.gif using Guid(12434e550d3b6e74a86b73452319870e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e43855105b3dc5b3b6a6d63fb35725') in 0.013772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Fall.gif
+  artifactKey: Guid(2f792d7f230de1c4ba3820e10b18202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Fall.gif using Guid(2f792d7f230de1c4ba3820e10b18202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a63546654bfce9c8a52034fb9bfbeb3') in 0.011561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallClimb.gif
+  artifactKey: Guid(f9f606c26fc38e64aa1663e81e712318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallClimb.gif using Guid(f9f606c26fc38e64aa1663e81e712318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6e2b2b8dcfdc1f8df5631082dba39d') in 0.012471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallClimbNoMovement.gif
+  artifactKey: Guid(f2c0b903e02d727449c03c6bcf83c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallClimbNoMovement.gif using Guid(f2c0b903e02d727449c03c6bcf83c3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49059a8f50e6c0604183c799d71af2c') in 0.012808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchTransition.gif
+  artifactKey: Guid(09e4a256d2ba19a46b5a2a51582b9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__CrouchTransition.gif using Guid(09e4a256d2ba19a46b5a2a51582b9ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223c715a39f3785de28d143b37c59eb7') in 0.008084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Hit.gif
+  artifactKey: Guid(1abe7ef774906894d8b2d17fbf3342f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Hit.gif using Guid(1abe7ef774906894d8b2d17fbf3342f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f572d93df1c17295753eaeb2adcf6089') in 0.013609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Attack2.gif
+  artifactKey: Guid(275ef787e39eaa14880b6253022b78af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Attack2.gif using Guid(275ef787e39eaa14880b6253022b78af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e8ed1ed41856e239524e95e0fd6e1c') in 0.014302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__DeathNoMovement.gif
+  artifactKey: Guid(fa9dfb9a58387794fabd010fa8c65c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__DeathNoMovement.gif using Guid(fa9dfb9a58387794fabd010fa8c65c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57de557eea81e92178e80cd727ea0b32') in 0.009448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallSlide.gif
+  artifactKey: Guid(87c4d7dcf06244e4496682a62643de64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__WallSlide.gif using Guid(87c4d7dcf06244e4496682a62643de64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8884eef0e183e912a17a620c04ebfdb') in 0.013565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__AttackCombo2hit.gif
+  artifactKey: Guid(2486ab5f724f97849bb842728c8bfa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__AttackCombo2hit.gif using Guid(2486ab5f724f97849bb842728c8bfa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3781ecece0bb648ea4ce639554e313') in 0.007183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__JumpFallInbetween.gif
+  artifactKey: Guid(b7ab0c33f0ede1343bcf9d247b282f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__JumpFallInbetween.gif using Guid(b7ab0c33f0ede1343bcf9d247b282f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887d373c3c6cc626543ecb2dda467a7a') in 0.017376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__SlideAll.gif
+  artifactKey: Guid(cf601d5e419bc6842b7ff95e4c864953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__SlideAll.gif using Guid(cf601d5e419bc6842b7ff95e4c864953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d92ade067503b6647414d48bf598be') in 0.006883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Jump.gif
+  artifactKey: Guid(68cb7ee910bc340439de375a35c4a61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Jump.gif using Guid(68cb7ee910bc340439de375a35c4a61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a7c6b73b0cde5602d2a8165244409c') in 0.012468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Roll.gif
+  artifactKey: Guid(6dc2b122857f19e4b8088d2eeb92efc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Roll.gif using Guid(6dc2b122857f19e4b8088d2eeb92efc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844d06e9dd007d15f266fb54483bbe9a') in 0.014315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Run.gif
+  artifactKey: Guid(78351b5ff8088784da85b18c1a910305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Run.gif using Guid(78351b5ff8088784da85b18c1a910305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f830b651c451261e9fe4c433037e5') in 0.014135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Slide.gif
+  artifactKey: Guid(15d6fe94ddbabd6499cbc7f1d8d614fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Slide.gif using Guid(15d6fe94ddbabd6499cbc7f1d8d614fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9545bdc562b3313e02f1b7e0942eb8cb') in 0.014865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Attack2NoMovement.gif
+  artifactKey: Guid(6f9b37cf97876384ca6c7dd3ccda4c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/USer char/Colour1/Outline/120x80_gifs/__Attack2NoMovement.gif using Guid(6f9b37cf97876384ca6c7dd3ccda4c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f54fb124c667e5fec1f7018cd5085f2') in 0.014399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 47.690752 seconds.
+  path: Assets/Sprite/Pallete
+  artifactKey: Guid(79e2366469d20dd42a9d94b6743d7d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Pallete using Guid(79e2366469d20dd42a9d94b6743d7d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f9ab399424d18c01c158eff8948b43') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
