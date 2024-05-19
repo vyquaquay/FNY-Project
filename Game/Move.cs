@@ -3,45 +3,64 @@ using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-[RequireComponent(typeof(Animator))]
 [RequireComponent (typeof(Rigidbody2D))]
 public class Move : MonoBehaviour
 {
     //animation and physic
+    [Header("physic of player")]
     private Rigidbody2D rbd2;
-    private Animator Theanimator;
-    public float speed = 2.0f;
-    public float horizonMovement;
-    private bool facingR = true;
+    [SerializeField] public float speed = 2.0f;
+    private float xAxis;
+    [SerializeField] private float jumpForce = 10;
+    [SerializeField] private Transform groundcheck;
+    [SerializeField] private float groundchecky = 0.2f;
+    [SerializeField] private float groundcheckx = 0.5f;
+    [SerializeField] private LayerMask isground;
     // Start is called before the first frame update
     private void Start()
     {
         //player game object
         rbd2 = GetComponent<Rigidbody2D>();
-        Theanimator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
-    //to chance the directon
+
     private void Update()
     {
-        horizonMovement = Input.GetAxisRaw("Horizontal");
+        getInput();
+        Moving();
+        Jump();
     }
-    //to make character run
-    private void FixedUpdate()
+
+    void getInput()
     {
-        rbd2.velocity = new Vector2(horizonMovement*speed,rbd2.velocity.y);
-        Theanimator.SetFloat("speed", Mathf.Abs(horizonMovement));
-        Flip(horizonMovement);
+        xAxis = Input.GetAxisRaw("Horizontal");
     }
-    private void Flip(float horizontal)
+
+    private void Moving()
     {
-        if (horizontal <0 && facingR || horizontal >0 && !facingR) 
+        rbd2.velocity = new Vector2 (speed * xAxis, rbd2.velocity.y );
+    } 
+    public bool isonGround()
+    {
+        if (Physics2D.Raycast(groundcheck.position, Vector2.down, groundchecky, isground) 
+            || Physics2D.Raycast(groundcheck.position + new Vector3(groundcheckx, 0, 0), Vector2.down, groundchecky, isground)
+            || Physics2D.Raycast(groundcheck.position + new Vector3(-groundcheckx, 0, 0), Vector2.down, groundchecky, isground)
+            )
         {
-            facingR = !facingR;
-            Vector3 Uscale = transform.localScale;
-            Uscale.x *= -1;
-            transform.localScale = Uscale;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    void Jump()
+    {
+        if(Input.GetButtonDown("Jump") && isonGround())
+        {
+            rbd2.velocity = new Vector3(rbd2.velocity.x, jumpForce);
         }
     }
 }
