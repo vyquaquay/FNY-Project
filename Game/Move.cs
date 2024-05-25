@@ -12,14 +12,28 @@ public class Move : MonoBehaviour
     [SerializeField] public float speed = 2.0f;
     private float xAxis;
     [SerializeField] private float jumpForce = 10;
+    private int dbJumpCounter;
+    [SerializeField] private int maxdbJump = 1;
+    [Header("Groundcheck setting")]
     [SerializeField] private Transform groundcheck;
     [SerializeField] private float groundchecky = 0.2f;
     [SerializeField] private float groundcheckx = 0.5f;
     [SerializeField] private LayerMask isground;
     Animator animator;
+    PlayerStateList playerStateList;
 
+    [Header("Coyotetime setting")]
+    private float coyoteTimeCounter = 0;
+    [SerializeField] private float coyoteTime = 0.1f;
+
+    [Header("Dash setting")]
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashTime;
+    [SerializeField] private float dashCD;
+    private bool canDash = true;
+    private bool dashed;
     public static Move Instance;
-
+    private float gravity;
     private void Awake()
     {
          if( Instance != null &&  Instance != this)
@@ -35,8 +49,11 @@ public class Move : MonoBehaviour
     private void Start()
     {
         //player game object
+        playerStateList = GetComponent<PlayerStateList>();
         rbd2 = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+   
+        gravity = rbd2.gravityScale;
     }
 
     // Update is called once per frame
@@ -44,9 +61,12 @@ public class Move : MonoBehaviour
     private void Update()
     {
         getInput();
+        UpdateJump();
+        if (playerStateList.dashing) return;
+        Flip();
         Moving();
         Jump();
-        Flip();
+        StartDash();
     }
 
     void getInput()
@@ -64,6 +84,31 @@ public class Move : MonoBehaviour
         {
             transform.localScale = new Vector2(1, transform.localScale.y);
         }
+    }
+    void StartDash()
+    {
+        if (Input.GetButtonDown("Dash") && canDash && !dashed)
+        {
+            StartCoroutine(Dash());
+            dashed = true;
+        }
+        if (isonGround())
+        {
+            dashed = false;
+        }
+    }
+    IEnumerator Dash()
+    {
+        canDash = false;
+        playerStateList.dashing = true;
+        animator.SetTrigger("Dashing");
+        rbd2.gravityScale = 0;
+        rbd2.velocity = new Vector2(transform.localScale.x * dashSpeed, 0);
+        yield return new WaitForSeconds(dashTime);
+        rbd2.gravityScale = gravity;
+        playerStateList.dashing = false;
+        yield return new WaitForSeconds(dashCD);
+        canDash = true;
     }
 
     private void Moving()
@@ -87,10 +132,31 @@ public class Move : MonoBehaviour
     }
     void Jump()
     {
-        if(Input.GetButtonDown("Jump") && isonGround())
-        {
-            rbd2.velocity = new Vector3(rbd2.velocity.x, jumpForce);
-        }
+       
+            if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0)
+            {
+                rbd2.velocity = new Vector3(rbd2.velocity.x, jumpForce);
+               /* playerStateList.Jumping = true;*/
+            }
+            else if (!isonGround() && dbJumpCounter < maxdbJump && Input.GetButtonDown("Jump"))
+                     {
+                        dbJumpCounter++;
+                         rbd2.velocity = new Vector3(rbd2.velocity.x, jumpForce);
+                     }
+
         animator.SetBool("Jumping", !isonGround());
+    }
+    void UpdateJump()
+    {
+        if(isonGround())
+        {
+           /* playerStateList.Jumping = false;*/
+            coyoteTimeCounter = coyoteTime;
+            dbJumpCounter = 0;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
     }
 }
